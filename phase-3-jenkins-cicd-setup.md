@@ -3,7 +3,7 @@
 
 In this phase, Jenkins was configured to automate the CI/CD process, including plugin installations, environment configurations, and building, testing, scanning, and deploying the application.
 
-**Jenkins Plugin Setup*
+**Jenkins Plugin Setup**
 
 The following plugins were installed to extend Jenkins capabilities:
 
@@ -59,7 +59,7 @@ The stages were configured as follows:
 - **SonarQube Scan**: Triggered after the `mvn compile` stage, SonarQube scanned the project and uploaded the results to the SonarQube server.
 - **Quality Gate Check**: The pipeline awaited the result of the quality gate. If the code failed the check, the pipeline was aborted, preventing low-quality or insecure code from moving forward.
 
-*Screenshot suggestion: A screenshot of SonarQube displaying the analysis results, including code quality metrics and the successful passing of the quality gate.*
+![SonarQube](link_to_screenshot)
 
 
 **Jenkins Pipeline Script**

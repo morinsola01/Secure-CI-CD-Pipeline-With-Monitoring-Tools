@@ -1,10 +1,9 @@
-### Phase 3: Jenkins CI/CD Setup
+<h1><strong>Phase 3: Jenkins CI/CD Setup</strong></h1>
 
 
 In this phase, Jenkins was configured to automate the CI/CD process, including plugin installations, environment configurations, and building, testing, scanning, and deploying the application.
 
-
-#### Jenkins Plugin Setup
+**Jenkins Plugin Setup*
 
 The following plugins were installed to extend Jenkins capabilities:
 
@@ -19,7 +18,7 @@ The following plugins were installed to extend Jenkins capabilities:
 )
 
 
-#### Jenkins Pipeline Configuration
+**Jenkins Pipeline Configuration**
 
 I configured the necessary credentials in Jenkins for GitHub, Docker, SonarQube, Nexus, and Kubernetes. These credentials were securely referenced in the pipeline using the **Pipeline Syntax** feature, ensuring a clean and secure integration with external services.
 
@@ -39,7 +38,7 @@ The Jenkins pipeline was scripted to handle the entire CI/CD workflow. The key s
 ![Pipeline](<img width="1440" alt="Screenshot 2024-10-23 at 10 27 54 PM" src="https://github.com/user-attachments/assets/7c0e4b75-4b05-479c-9d58-bbc761c9e79a">
 )
 
-#### Maven Releaser and Snapshot Configuration
+**Maven Releaser and Snapshot Configuration**
 
 The pipeline was configured to support both **release** and **snapshot** builds using Nexus as the artifact repository. The process was managed through Maven with the following configurations:
 
@@ -51,7 +50,7 @@ The integration between Nexus and Jenkins ensured that each build, whether snaps
 ![Nexus Repository](<img width="1440" alt="Screenshot 2024-10-23 at 10 29 37 PM" src="https://github.com/user-attachments/assets/473a2f9b-e04c-46f8-a9c0-ea4006feea3f">
 )
 
-#### SonarQube Analysis and Quality Gate
+**SonarQube Analysis and Quality Gate**
 
 During the pipeline, SonarQube was used to perform static code analysis, checking for potential vulnerabilities and ensuring code quality. The pipeline included a **Quality Gate** that blocked the process if the code did not meet predefined quality standards.
 
@@ -63,7 +62,7 @@ The stages were configured as follows:
 *Screenshot suggestion: A screenshot of SonarQube displaying the analysis results, including code quality metrics and the successful passing of the quality gate.*
 
 
-#### Jenkins Pipeline Script
+**Jenkins Pipeline Script**
 
 ```groovy
 pipeline {

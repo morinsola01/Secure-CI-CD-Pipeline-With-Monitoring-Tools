@@ -14,8 +14,10 @@ The following plugins were installed to extend Jenkins capabilities:
 - **Kubernetes CLI & Kubernetes**: Facilitated interactions with Kubernetes clusters.
 - **Docker & Docker Pipeline Step**: Managed Docker builds, containers, and integrated with Docker registries.
 
-![Installed Plugins](<img width="1440" alt="Screenshot 2024-10-23 at 10 12 39 PM" src="https://github.com/user-attachments/assets/b4f89338-86d0-44ce-9d81-1d91998195e7">
-)
+**Installed Plugins**
+<img width="1440" alt="Screenshot 2024-10-23 at 10 12 39 PM" src="https://github.com/user-attachments/assets/0ba627b0-1cf4-4b39-9976-4226d42cb311">
+
+
 
 
 **Jenkins Pipeline Configuration**
@@ -35,8 +37,12 @@ The Jenkins pipeline was scripted to handle the entire CI/CD workflow. The key s
 - **Deploy to Kubernetes**: Deployed the application to the Kubernetes cluster.
 - **Verify Deployment**: Checked the status of the pods and services within Kubernetes.
 
-![Pipeline](<img width="1440" alt="Screenshot 2024-10-23 at 10 27 54 PM" src="https://github.com/user-attachments/assets/7c0e4b75-4b05-479c-9d58-bbc761c9e79a">
-)
+**Pipeline**
+<img width="1440" alt="Screenshot 2024-10-23 at 10 12 39 PM" src="https://github.com/user-attachments/assets/5f17d6a0-c447-4d10-a69a-7fa6271a5d62">
+
+<img width="1440" alt="Screenshot 2024-10-23 at 10 28 17 PM" src="https://github.com/user-attachments/assets/1a8ff0b9-8c5a-4f48-9292-0265ca7ea49e">
+
+
 
 **Maven Releaser and Snapshot Configuration**
 
@@ -47,8 +53,9 @@ The pipeline was configured to support both **release** and **snapshot** builds 
 
 The integration between Nexus and Jenkins ensured that each build, whether snapshot or release, was tracked and versioned properly, enabling efficient artifact management throughout the development cycle.
 
-![Nexus Repository](<img width="1440" alt="Screenshot 2024-10-23 at 10 29 37 PM" src="https://github.com/user-attachments/assets/473a2f9b-e04c-46f8-a9c0-ea4006feea3f">
-)
+**Nexus Repository**
+<img width="1440" alt="Screenshot 2024-10-23 at 10 29 37 PM" src="https://github.com/user-attachments/assets/0d2d257c-d9ff-4660-8412-d2cf29aeee93">
+
 
 **SonarQube Analysis and Quality Gate**
 
@@ -59,8 +66,11 @@ The stages were configured as follows:
 - **SonarQube Scan**: Triggered after the `mvn compile` stage, SonarQube scanned the project and uploaded the results to the SonarQube server.
 - **Quality Gate Check**: The pipeline awaited the result of the quality gate. If the code failed the check, the pipeline was aborted, preventing low-quality or insecure code from moving forward.
 
-![SonarQube](<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/48fb24d0-2cb2-4877-9055-e3c77bf8366c">
-)
+**SonarQube**
+<img width="1440" alt="Sonarqube" src="https://github.com/user-attachments/assets/c3c7a50f-2db1-4ad1-b6f1-4ff3ba04cd91">
+<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/c0d1a03c-e0e4-4bc8-971a-593c08b4103d">
+
+
 
 
 **Jenkins Pipeline Script**

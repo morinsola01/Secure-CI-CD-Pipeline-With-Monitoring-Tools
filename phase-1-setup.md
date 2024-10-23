@@ -9,7 +9,7 @@ This document outlines the steps to set up an Ubuntu EC2 instance, configure a K
 
 ### 1.1 Sign in to the AWS Management Console
 - **Step 1:** Open your web browser and navigate to the [AWS Management Console](https://aws.amazon.com/console/).
-  - ![AWS console login page](link-to-screenshot)
+  - ![AWS console login page](https://github.com/morinsola01/Secure-CI-CD-Pipeline-With-Monitoring-Tools/issues/1#issue-2609689763)
 - **Step 2:** Enter your AWS account credentials and click "Sign In".
 
 ### 1.2 Launching an EC2 Instance

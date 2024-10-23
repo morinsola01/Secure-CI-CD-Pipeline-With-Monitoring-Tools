@@ -23,8 +23,9 @@ Here are the official download links for each tool:
 
 To enable monitoring of Jenkins and the deployed application, I modified the `prometheus.yaml` configuration file to scrape metrics from the endpoints of `node_exporter`, `jenkins` and `blackbox`
 
-![Prometheus](<img width="1440" alt="Screenshot 2024-10-23 at 10 41 19 PM" src="https://github.com/user-attachments/assets/9a46e514-940c-48a5-8b7e-e4dccac02f83">
-)
+**Prometheus**
+<img width="1440" alt="Screenshot 2024-10-23 at 10 41 19 PM" src="https://github.com/user-attachments/assets/182c78fc-0979-4752-a3ec-680aef3497d3">
+
 
 **Grafana Dashboards**
 
@@ -35,7 +36,7 @@ I created two Grafana dashboards to visualize key metrics:
 
 These dashboards provide real-time insights into the system's health and are configured to trigger alerts if any service becomes unavailable or if resource utilization exceeds predefined thresholds.
 
-![Grafana Dashboards](<img width="1440" alt="Screenshot 2024-10-23 at 10 37 26 PM" src="https://github.com/user-attachments/assets/f7bcc051-ec5e-4c1f-b5da-900db61c45b1">
-)
-<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/182300a1-0647-4e0b-b384-8a21d3e01c78">
+**Grafana Dashboards**
+<img width="1440" alt="Screenshot 2024-10-23 at 10 37 26 PM" src="https://github.com/user-attachments/assets/0d7bdf9c-3711-4978-84c6-b405ed4a2ac0">
+
 

@@ -1,6 +1,7 @@
-<img width="1440" alt="Screenshot 2024-10-23 at 10 12 39 PM" src="https://github.com/user-attachments/assets/dc9ad4ec-d142-4f52-b85d-a2817e819d1b">### Phase 3: Jenkins CI/CD Setup
+### Phase 3: Jenkins CI/CD Setup
 
 In this phase, Jenkins was configured to automate the CI/CD process, including plugin installations, environment configurations, and building, testing, scanning, and deploying the application.
+
 
 #### Jenkins Plugin Setup
 
@@ -15,6 +16,7 @@ The following plugins were installed to extend Jenkins capabilities:
 
 ![Installed Plugins](<img width="1440" alt="Screenshot 2024-10-23 at 10 12 39 PM" src="https://github.com/user-attachments/assets/b4f89338-86d0-44ce-9d81-1d91998195e7">
 )
+
 
 #### Jenkins Pipeline Configuration
 
@@ -35,6 +37,7 @@ The Jenkins pipeline was scripted to handle the entire CI/CD workflow. The key s
 
 ![Pipeline](<img width="1440" alt="Screenshot 2024-10-23 at 10 07 42 PM" src="https://github.com/user-attachments/assets/e634c0fd-9be0-4d45-86e5-3037300f89e6">
 )
+
 
 #### Jenkins Pipeline Script
 

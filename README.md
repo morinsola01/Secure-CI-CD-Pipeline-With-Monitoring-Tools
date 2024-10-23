@@ -4,17 +4,6 @@
 
 This project demonstrates the setup of a secure CI/CD pipeline using Kubernetes, Jenkins, SonarQube, and Nexus, hosted on AWS virtual machines. It also integrates monitoring tools like Grafana, Prometheus, and Blackbox Exporter for real-time infrastructure and service monitoring.
 
-<h1><strong>Table of Contents</strong></h1>
-
-1.  [Setup](https://github.com/morinsola01/Secure-CI-CD-Pipeline-With-Monitoring-Tools/blob/main/phase-1-setup.md)
-
-2. ![Tools Used] ([link_to_your_repo](https://github.com/morinsola01/Secure-CI-CD-Pipeline-With-Monitoring-Tools/blob/main/phase-2-git-repo-setup.md))
-3. Pipeline Architecture (link_to_your_repo)
-4. Screenshots (link_to_your_repo)
-5. Conclusion (link_to_your_repo)
-
-<h1><strong>Project Phases</strong></h1>
-
 **Phase 1: AWS VM and Tool Setup**
 * Deployed AWS Ubuntu virtual machines.
 * Configured security groups for secure VM access.
@@ -31,7 +20,6 @@ This project demonstrates the setup of a secure CI/CD pipeline using Kubernetes,
 * Configured Jenkins pipelines to automate CI/CD processes.
 * Implemented security features within the pipeline, including:
 * Static Application Security Testing (SAST)
-* Dynamic Application Security Testing (DAST)
 * Linked Jenkins to GitHub for repository automation.
 
 **Phase 4: Monitoring Tools Setup**
@@ -58,15 +46,6 @@ The CI/CD pipeline follows these steps:
 * Nexus manages build artifacts.
 * Deployment of applications via Kubernetes.
 * Prometheus and Grafana monitor the infrastructure and application health.
-
-**Screenshots**
-
-Here are some screenshots of key steps and configurations:
-
-* AWS VM Setup: [Screenshot 1](link_to_screenshot1.png)
-* Jenkins Pipeline: [Screenshot 2](link_to_screenshot2.png)
-* SonarQube Code Analysis: [Screenshot 3](link_to_screenshot3.png)
-* Grafana Monitoring Dashboard: [Screenshot 4](link_to_screenshot4.png)
 
 **Conclusion**
 

@@ -17,6 +17,13 @@ Here are the official download links for each tool:
 - [Grafana Download Link](https://grafana.com/grafana/download)
 - [Blackbox Exporter GitHub Repository](https://github.com/prometheus/blackbox_exporter)
 
+#### Adding Jenkins and Application Endpoints to Prometheus
+
+To enable monitoring of Jenkins and the deployed application, I modified the `prometheus.yaml` configuration file to scrape metrics from the endpoints of `node_exporter`, `jeankins` and `blackbox`
+
+![Prometheus](<img width="1440" alt="Screenshot 2024-10-23 at 10 41 19 PM" src="https://github.com/user-attachments/assets/9a46e514-940c-48a5-8b7e-e4dccac02f83">
+)
+
 #### Grafana Dashboards
 
 I created two Grafana dashboards to visualize key metrics:
@@ -26,4 +33,5 @@ I created two Grafana dashboards to visualize key metrics:
 
 These dashboards provide real-time insights into the system's health and are configured to trigger alerts if any service becomes unavailable or if resource utilization exceeds predefined thresholds.
 
-*Screenshot suggestion: A screenshot of the Node Exporter dashboard monitoring Jenkins and the Blackbox Exporter dashboard monitoring application availability.*
+![Grafana Dashboards](<img width="1440" alt="Screenshot 2024-10-23 at 10 37 26 PM" src="https://github.com/user-attachments/assets/f7bcc051-ec5e-4c1f-b5da-900db61c45b1">
+)

@@ -6,7 +6,7 @@ This project demonstrates the setup of a secure CI/CD pipeline using Kubernetes,
 
 <h1><strong>Table of Contents</strong></h1>
 
-1. Project Phases (link_to_your_repo)
+1. Project Phases (phase-1-setup.md)
 2. Tools Used (link_to_your_repo)
 3. Pipeline Architecture (link_to_your_repo)
 4. Screenshots (link_to_your_repo)

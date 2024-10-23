@@ -59,7 +59,8 @@ The stages were configured as follows:
 - **SonarQube Scan**: Triggered after the `mvn compile` stage, SonarQube scanned the project and uploaded the results to the SonarQube server.
 - **Quality Gate Check**: The pipeline awaited the result of the quality gate. If the code failed the check, the pipeline was aborted, preventing low-quality or insecure code from moving forward.
 
-![SonarQube](link_to_screenshot)
+![SonarQube](<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/48fb24d0-2cb2-4877-9055-e3c77bf8366c">
+)
 
 
 **Jenkins Pipeline Script**

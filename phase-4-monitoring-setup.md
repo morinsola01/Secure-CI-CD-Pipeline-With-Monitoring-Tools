@@ -21,7 +21,7 @@ Here are the official download links for each tool:
 
 **Adding Jenkins and Application Endpoints to Prometheus**
 
-To enable monitoring of Jenkins and the deployed application, I modified the `prometheus.yaml` configuration file to scrape metrics from the endpoints of `node_exporter`, `jeankins` and `blackbox`
+To enable monitoring of Jenkins and the deployed application, I modified the `prometheus.yaml` configuration file to scrape metrics from the endpoints of `node_exporter`, `jenkins` and `blackbox`
 
 ![Prometheus](<img width="1440" alt="Screenshot 2024-10-23 at 10 41 19 PM" src="https://github.com/user-attachments/assets/9a46e514-940c-48a5-8b7e-e4dccac02f83">
 )

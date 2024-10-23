@@ -5,11 +5,11 @@ This project demonstrates the setup of a secure CI/CD pipeline using Kubernetes,
 
 <h1><strong>Table of Contents</strong></h1>
 
-1. Project Phases
-2. Tools Used
-3. Pipeline Architecture
-4. Screenshots
-5. Conclusion
+1. Project Phases (link_to_your_repo)
+2. Tools Used (link_to_your_repo)
+3. Pipeline Architecture (link_to_your_repo)
+4. Screenshots (link_to_your_repo)
+5. Conclusion (link_to_your_repo)
 
 <h1><strong>Project Phases</strong></h1>
 
@@ -61,10 +61,10 @@ The CI/CD pipeline follows these steps:
 
 Here are some screenshots of key steps and configurations:
 
-* AWS VM Setup: Screenshot
-* Jenkins Pipeline: Screenshot
-* SonarQube Code Analysis: Screenshot
-* Grafana Monitoring Dashboard: Screenshot
+* AWS VM Setup: [Screenshot 1](link_to_screenshot1.png)
+* Jenkins Pipeline: [Screenshot 2](link_to_screenshot2.png)
+* SonarQube Code Analysis: [Screenshot 3](link_to_screenshot3.png)
+* Grafana Monitoring Dashboard: [Screenshot 4](link_to_screenshot4.png)
 
 **Conclusion**
 

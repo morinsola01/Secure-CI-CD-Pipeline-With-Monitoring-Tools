@@ -38,7 +38,10 @@ The Jenkins pipeline was scripted to handle the entire CI/CD workflow. The key s
 - **Verify Deployment**: Checked the status of the pods and services within Kubernetes.
 
 **Pipeline**
-<img width="1440" alt="Screenshot 2024-10-23 at 10 12 39 PM" src="https://github.com/user-attachments/assets/5f17d6a0-c447-4d10-a69a-7fa6271a5d62">
+
+<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/5849f309-b10d-4bac-8046-f56910ab596f">
+
+<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/89ba614c-f8a5-434a-99e3-6be91c569477">
 
 <img width="1440" alt="Screenshot 2024-10-23 at 10 28 17 PM" src="https://github.com/user-attachments/assets/1a8ff0b9-8c5a-4f48-9292-0265ca7ea49e">
 

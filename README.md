@@ -1,4 +1,5 @@
 <h1><strong>Secure CI/CD Pipeline with Monitoring Tools</strong></h1>
+
 **Project Overview**
 
 This project demonstrates the setup of a secure CI/CD pipeline using Kubernetes, Jenkins, SonarQube, and Nexus, hosted on AWS virtual machines. It also integrates monitoring tools like Grafana, Prometheus, and Blackbox Exporter for real-time infrastructure and service monitoring.

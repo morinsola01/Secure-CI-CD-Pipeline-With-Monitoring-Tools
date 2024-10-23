@@ -6,7 +6,8 @@ This project demonstrates the setup of a secure CI/CD pipeline using Kubernetes,
 
 <h1><strong>Table of Contents</strong></h1>
 
-1. ![Project Phases] ([phase-1-setup.md](https://github.com/morinsola01/Secure-CI-CD-Pipeline-With-Monitoring-Tools/blob/main/phase-1-setup.md))
+1.  [Project Phase 1: Setup](https://github.com/morinsola01/Secure-CI-CD-Pipeline-With-Monitoring-Tools/blob/main/phase-1-setup.md)
+
 2. ![Tools Used] ([link_to_your_repo](https://github.com/morinsola01/Secure-CI-CD-Pipeline-With-Monitoring-Tools/blob/main/phase-2-git-repo-setup.md))
 3. Pipeline Architecture (link_to_your_repo)
 4. Screenshots (link_to_your_repo)

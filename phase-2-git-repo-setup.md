@@ -16,8 +16,10 @@ In this phase, I set up a **private Git repository** and linked it to Jenkins to
 
     This created a local version of the repository where I added the source code and DevSecOps configurations.
 
-![Repository Setup](<img width="1440" alt="Screenshot 2024-10-23 at 9 53 04 PM" src="https://github.com/user-attachments/assets/7cd6465e-7b74-43e6-9680-d19a89a653a5">
-)
+**Repository Setup**
+
+<img width="1440" alt="Screenshot 2024-10-23 at 9 53 04 PM" src="https://github.com/user-attachments/assets/686b5819-86a0-43cd-8295-d14bb82ef3a5">
+
 
 **2. Connecting GitHub to Jenkins**
 
@@ -25,8 +27,10 @@ In this phase, I set up a **private Git repository** and linked it to Jenkins to
 
 - **Jenkins Pipeline Configuration**: I created a Jenkins pipeline that automates the build, test, and deploy processes. The pipeline was set to trigger on every push to the GitHub repository, ensuring continuous integration and continuous delivery.
 
-![Jenkins Pipeline Configuration](<img width="1440" alt="Screenshot 2024-10-23 at 9 53 48 PM" src="https://github.com/user-attachments/assets/5349503c-be0c-41ad-8a33-564f52f8c2e9">
-)
+**Jenkins Pipeline**
+
+<img width="1437" alt="Screenshot 2024-10-23 at 9 27 43 PM" src="https://github.com/user-attachments/assets/4144e69b-f3c7-4d29-ab40-d2ab65746840">
+
 
 By establishing this setup, I ensured that the codebase was securely managed and continuously integrated into the CI/CD process, paving the way for automated testing, security scanning, and deployment in the later phases.
 

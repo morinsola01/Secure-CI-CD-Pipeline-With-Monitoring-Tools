@@ -1,4 +1,3 @@
-
 ### Phase 3: Jenkins CI/CD Setup
 
 
@@ -37,8 +36,31 @@ The Jenkins pipeline was scripted to handle the entire CI/CD workflow. The key s
 - **Deploy to Kubernetes**: Deployed the application to the Kubernetes cluster.
 - **Verify Deployment**: Checked the status of the pods and services within Kubernetes.
 
-![Pipeline](<img width="1440" alt="Screenshot 2024-10-23 at 10 07 42 PM" src="https://github.com/user-attachments/assets/e634c0fd-9be0-4d45-86e5-3037300f89e6">
+![Pipeline](<img width="1440" alt="Screenshot 2024-10-23 at 10 27 54 PM" src="https://github.com/user-attachments/assets/7c0e4b75-4b05-479c-9d58-bbc761c9e79a">
 )
+
+#### Maven Releaser and Snapshot Configuration
+
+The pipeline was configured to support both **release** and **snapshot** builds using Nexus as the artifact repository. The process was managed through Maven with the following configurations:
+
+- **Snapshots**: Builds that were not marked for release were published as snapshots to Nexus, using a snapshot repository. This allowed for incremental versions to be tested and reviewed without requiring a full release.
+- **Releases**: When ready for production, the Maven build was configured to publish release versions to the Nexus release repository. This was triggered by the `mvn deploy` command in the pipeline, ensuring that only stable, tested builds were released.
+
+The integration between Nexus and Jenkins ensured that each build, whether snapshot or release, was tracked and versioned properly, enabling efficient artifact management throughout the development cycle.
+
+![Nexus Repository](<img width="1440" alt="Screenshot 2024-10-23 at 10 29 37 PM" src="https://github.com/user-attachments/assets/473a2f9b-e04c-46f8-a9c0-ea4006feea3f">
+)
+
+#### SonarQube Analysis and Quality Gate
+
+During the pipeline, SonarQube was used to perform static code analysis, checking for potential vulnerabilities and ensuring code quality. The pipeline included a **Quality Gate** that blocked the process if the code did not meet predefined quality standards.
+
+The stages were configured as follows:
+
+- **SonarQube Scan**: Triggered after the `mvn compile` stage, SonarQube scanned the project and uploaded the results to the SonarQube server.
+- **Quality Gate Check**: The pipeline awaited the result of the quality gate. If the code failed the check, the pipeline was aborted, preventing low-quality or insecure code from moving forward.
+
+*Screenshot suggestion: A screenshot of SonarQube displaying the analysis results, including code quality metrics and the successful passing of the quality gate.*
 
 
 #### Jenkins Pipeline Script

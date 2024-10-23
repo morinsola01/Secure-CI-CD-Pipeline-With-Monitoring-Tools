@@ -1,5 +1,6 @@
 ### Phase 3: Jenkins CI/CD Setup
 
+
 In this phase, Jenkins was configured to automate the CI/CD process, including plugin installations, environment configurations, and building, testing, scanning, and deploying the application.
 
 

@@ -18,8 +18,6 @@ The following plugins were installed to extend Jenkins capabilities:
 <img width="1440" alt="Screenshot 2024-10-23 at 10 12 39 PM" src="https://github.com/user-attachments/assets/0ba627b0-1cf4-4b39-9976-4226d42cb311">
 
 
-
-
 **Jenkins Pipeline Configuration**
 
 I configured the necessary credentials in Jenkins for GitHub, Docker, SonarQube, Nexus, and Kubernetes. These credentials were securely referenced in the pipeline using the **Pipeline Syntax** feature, ensuring a clean and secure integration with external services.
@@ -39,9 +37,7 @@ The Jenkins pipeline was scripted to handle the entire CI/CD workflow. The key s
 
 **Pipeline**
 
-<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/5849f309-b10d-4bac-8046-f56910ab596f">
-
-<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/89ba614c-f8a5-434a-99e3-6be91c569477">
+<img width="1437" alt="Screenshot 2024-10-23 at 9 27 43 PM" src="https://github.com/user-attachments/assets/27e66d49-a3a7-41c7-a408-e0359a77da00">
 
 <img width="1440" alt="Screenshot 2024-10-23 at 10 28 17 PM" src="https://github.com/user-attachments/assets/1a8ff0b9-8c5a-4f48-9292-0265ca7ea49e">
 
@@ -57,6 +53,9 @@ The pipeline was configured to support both **release** and **snapshot** builds 
 The integration between Nexus and Jenkins ensured that each build, whether snapshot or release, was tracked and versioned properly, enabling efficient artifact management throughout the development cycle.
 
 **Nexus Repository**
+
+<img width="1440" alt="Screenshot 2024-10-23 at 9 32 33 PM" src="https://github.com/user-attachments/assets/fd32a8b6-b063-42f0-83b1-aac591de8eb0">
+
 <img width="1440" alt="Screenshot 2024-10-23 at 10 29 37 PM" src="https://github.com/user-attachments/assets/0d2d257c-d9ff-4660-8412-d2cf29aeee93">
 
 

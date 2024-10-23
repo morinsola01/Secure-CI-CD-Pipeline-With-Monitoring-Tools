@@ -37,3 +37,5 @@ These dashboards provide real-time insights into the system's health and are con
 
 ![Grafana Dashboards](<img width="1440" alt="Screenshot 2024-10-23 at 10 37 26 PM" src="https://github.com/user-attachments/assets/f7bcc051-ec5e-4c1f-b5da-900db61c45b1">
 )
+<img width="1440" alt="Screenshot 2024-10-23 at 11 15 11 PM" src="https://github.com/user-attachments/assets/182300a1-0647-4e0b-b384-8a21d3e01c78">
+
